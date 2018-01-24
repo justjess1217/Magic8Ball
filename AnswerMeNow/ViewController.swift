@@ -18,8 +18,11 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        
+        someLabel.text = "blah blah blah"
     }
 
+    @IBOutlet var someLabel: UILabel!
 
 }
 

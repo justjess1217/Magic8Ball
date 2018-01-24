@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D7382F8D1FF724C400EC7502 /* Screen-Shot-2017-03-24-at-11.32.48-AM copy.png in Resources */ = {isa = PBXBuildFile; fileRef = D7C25F1D1FF701430044C80B /* Screen-Shot-2017-03-24-at-11.32.48-AM copy.png */; };
+		D7382F8E1FF724C700EC7502 /* Screen-Shot-2017-03-24-at-11.32.48-AM copy.png in Resources */ = {isa = PBXBuildFile; fileRef = D7C25F1D1FF701430044C80B /* Screen-Shot-2017-03-24-at-11.32.48-AM copy.png */; };
+		D7382F91200272E400EC7502 /* Magic8Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C25F251FF712FA0044C80B /* Magic8Ball.swift */; };
+		D741659D2003BE8C00BF9395 /* Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C25F231FF712CA0044C80B /* Launch.swift */; };
 		D7C25EE21FF6F9530044C80B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C25EE11FF6F9530044C80B /* AppDelegate.swift */; };
 		D7C25EE41FF6F9530044C80B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C25EE31FF6F9530044C80B /* ViewController.swift */; };
 		D7C25EE71FF6F9530044C80B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7C25EE51FF6F9530044C80B /* Main.storyboard */; };
@@ -21,6 +25,7 @@
 		D7C25F091FF6F9530044C80B /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C25F081FF6F9530044C80B /* NotificationController.swift */; };
 		D7C25F0B1FF6F9530044C80B /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C25F0A1FF6F9530044C80B /* ComplicationController.swift */; };
 		D7C25F0D1FF6F9530044C80B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7C25F0C1FF6F9530044C80B /* Assets.xcassets */; };
+		D7C25F1E1FF701430044C80B /* Screen-Shot-2017-03-24-at-11.32.48-AM copy.png in Resources */ = {isa = PBXBuildFile; fileRef = D7C25F1D1FF701430044C80B /* Screen-Shot-2017-03-24-at-11.32.48-AM copy.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +90,9 @@
 		D7C25F0C1FF6F9530044C80B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7C25F0E1FF6F9530044C80B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7C25F0F1FF6F9530044C80B /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		D7C25F1D1FF701430044C80B /* Screen-Shot-2017-03-24-at-11.32.48-AM copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen-Shot-2017-03-24-at-11.32.48-AM copy.png"; path = "Assets.xcassets/Screen-Shot-2017-03-24-at-11.32.48-AM copy.png"; sourceTree = "<group>"; };
+		D7C25F231FF712CA0044C80B /* Launch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launch.swift; sourceTree = "<group>"; };
+		D7C25F251FF712FA0044C80B /* Magic8Ball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic8Ball.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,7 +150,10 @@
 			isa = PBXGroup;
 			children = (
 				D7C25EF51FF6F9530044C80B /* Interface.storyboard */,
+				D7C25F231FF712CA0044C80B /* Launch.swift */,
+				D7C25F251FF712FA0044C80B /* Magic8Ball.swift */,
 				D7C25EF81FF6F9530044C80B /* Assets.xcassets */,
+				D7C25F1D1FF701430044C80B /* Screen-Shot-2017-03-24-at-11.32.48-AM copy.png */,
 				D7C25EFA1FF6F9530044C80B /* Info.plist */,
 			);
 			path = "AnswerMeNow WatchKit App";
@@ -269,6 +280,7 @@
 			files = (
 				D7C25EEC1FF6F9530044C80B /* LaunchScreen.storyboard in Resources */,
 				D7C25EE91FF6F9530044C80B /* Assets.xcassets in Resources */,
+				D7382F8E1FF724C700EC7502 /* Screen-Shot-2017-03-24-at-11.32.48-AM copy.png in Resources */,
 				D7C25EE71FF6F9530044C80B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7C25EF91FF6F9530044C80B /* Assets.xcassets in Resources */,
+				D7C25F1E1FF701430044C80B /* Screen-Shot-2017-03-24-at-11.32.48-AM copy.png in Resources */,
 				D7C25EF71FF6F9530044C80B /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7C25F0D1FF6F9530044C80B /* Assets.xcassets in Resources */,
+				D7382F8D1FF724C400EC7502 /* Screen-Shot-2017-03-24-at-11.32.48-AM copy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +324,8 @@
 				D7C25F0B1FF6F9530044C80B /* ComplicationController.swift in Sources */,
 				D7C25F071FF6F9530044C80B /* ExtensionDelegate.swift in Sources */,
 				D7C25F051FF6F9530044C80B /* InterfaceController.swift in Sources */,
+				D741659D2003BE8C00BF9395 /* Launch.swift in Sources */,
+				D7382F91200272E400EC7502 /* Magic8Ball.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,7 +522,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CSCV5MXHRZ;
-				IBSC_MODULE = AnswerMeNow_WatchKit_Extension;
 				INFOPLIST_FILE = "AnswerMeNow WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = jesstelmanik.com.AnswerMeNow.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -525,7 +540,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CSCV5MXHRZ;
-				IBSC_MODULE = AnswerMeNow_WatchKit_Extension;
 				INFOPLIST_FILE = "AnswerMeNow WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = jesstelmanik.com.AnswerMeNow.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -548,7 +562,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jesstelmanik.com.AnswerMeNow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -563,7 +577,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jesstelmanik.com.AnswerMeNow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
